@@ -1,4 +1,4 @@
-# ASU SHARES CDS Consent Sandbox FHIR Controller
+# ASU SHARES FHIR Sandbox Controller
 
 This project provides a turnkey FHIR controller for loading FHIR seed data into a locally running [ASU SHARES](https://www.asushares.com) software stack. You may download an entire stack configuration from https://foundry.hl7.org.
 
