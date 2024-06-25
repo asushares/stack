@@ -1,10 +1,9 @@
-.angular
-.vscode
-dist/
-node_modules/
-Dockerfile
 .dockerignore
 .drone.yml
-.editorconfig
 .git
 .gitignore
+
+Dockerfile
+docker-compose.yml
+LICENSE
+README.md
