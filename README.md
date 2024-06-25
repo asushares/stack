@@ -1,11 +1,6 @@
-# ASU SHARES CDS Consent Sandbox
+# ASU SHARES CDS Consent Sandbox FHIR Controller
 
-This project provides a turnkey CDS sandbox for locally running the [ASU SHARES](https://www.asushares.com) software stack, as well as seed data for building your own custom use cases.
-
-```sh
-docker compose -f docker-compose.yml up
-```
-
+This project provides a turnkey FHIR controller for loading FHIR seed data into a locally running [ASU SHARES](https://www.asushares.com) software stack. You may download an entire stack configuration from https://foundry.hl7.org.
 
 | URL                   | Service           | Purpose       | Source Code   |
 |----                   |----               |----           |----           |
