@@ -1,11 +1,31 @@
 {
-    "$schema": "stack.schema.json",
+    "$schema": "https://stack.skycapp.com/stack.schema.json",
     "title": "SHARES Stack Controller",
     "instructions": "Load all data files below to use SHARES' deidentified patient records and Synthea-generated Organization and Practitioner records.",
     "fhir_base_url": "http://localhost:8080/fhir",
     "links": [
         {
-            "name": "FHIR Server",
+            "name": "Stack Controller",
+            "url": "http://localhost:4204"
+        },
+        {
+            "name": "Patient Portal",
+            "url": "http://localhost:4203"
+        },
+        {
+            "name": "Provider Portal",
+            "url": "http://localhost:4202"
+        },
+        {
+            "name": "Rules Manager",
+            "url": "http://localhost:4201"
+        },
+        {
+            "name": "CDS-Hooks Service",
+            "url": "http://localhost:3001"
+        },
+        {
+            "name": "HAPI FHIR (R5 Mode)",
             "url": "http://localhost:8080"
         }
     ],
