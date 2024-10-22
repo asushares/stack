@@ -70,8 +70,8 @@
                 ]
             },
             "request": {
-                "method": "POST",
-                "ifNoneExist": "identifier=adrian-allen-deny"
+                "method": "PUT",
+                "ifNoneExist": "Consent/adrian-allen-deny"
             }
         }
     ]

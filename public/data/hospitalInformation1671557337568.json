@@ -73,9 +73,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Organization",
-        "ifNoneExist": "identifier=d0894f6b-78d7-338d-82ad-b63de4d40014"
+        "method": "PUT",
+        "url": "Organization/d0894f6b-78d7-338d-82ad-b63de4d40014"
       }
     },
     {
@@ -124,9 +123,9 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Location",
-        "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|29551fe0-34ff-3ae2-bb60-e92b77f4e60d"
+        "ifNoneExist": "Location/29551fe0-34ff-3ae2-bb60-e92b77f4e60d"
       }
     },
     {
