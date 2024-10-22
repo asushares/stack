@@ -128,6 +128,13 @@
             "name": "Patient 12 - Lisa Little12",
             "description": "Deidentified patient record from SHARES study.",
             "type": "Patient Bundle"
+        },
+        {
+            "file": "data/CDS Test Case Consents.json",
+            "load": true,
+            "name": "CDS Test Case Consents",
+            "description": "Manually created Consent resources for CDS testing.",
+            "type": "Consent Directives"
         }
     ]
 }
