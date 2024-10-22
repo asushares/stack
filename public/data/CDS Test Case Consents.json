@@ -72,8 +72,8 @@
             "request": {
                 "method": "POST",
                 "url": "Organization",
-                "ifNoneExist": "id=adrian-allen-deny"
-              }
+                "ifNoneExist": "adrian-allen-deny"
+            }
         }
     ]
 }
