@@ -53,6 +53,10 @@ docker run -it --rm -p 4204:80 asushares/stack:latest --pull always
 ```
 Open http://localhost:4204 in your browser to use the controller.
 
+## Notes for macOS and ARM Users
+
+TODO
+
 ## License
 
 Apache 2.0
