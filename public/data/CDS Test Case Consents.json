@@ -71,7 +71,7 @@
             },
             "request": {
                 "method": "PUT",
-                "ifNoneExist": "Consent/adrian-allen-deny"
+                "url": "Consent/adrian-allen-deny"
             }
         }
     ]
