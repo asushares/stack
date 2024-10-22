@@ -3,7 +3,6 @@
     "type": "transaction",
     "entry": [
         {
-            "fullUrl": "http://clinfhir.com/fhir/Patient/cfsb1703736930464",
             "resource": {
                 "resourceType": "Consent",
                 "id": "adrian-allen-deny",
@@ -69,7 +68,12 @@
                         "purpose": []
                     }
                 ]
-            }
+            },
+            "request": {
+                "method": "POST",
+                "url": "Organization",
+                "ifNoneExist": "id=adrian-allen-deny"
+              }
         }
     ]
 }
