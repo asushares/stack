@@ -40,7 +40,7 @@ With data loaded, you may now run any of the other SHARES familar of services.
 | http://localhost:3000 | CDS Engine        | SHARES CDS Hooks service | https://github.com/asushares/cds
 
 
-## Building and Running Your Own Custom Stack Controller
+## Building and Running Your Own Custom Build
 
 ```sh
 # Substitute with your own repository.
@@ -49,7 +49,7 @@ docker buildx build -t asushares/stack:latest .
 
 ```sh
 # Run it on port 4204 (or other of your choice)
-docker run -it --rm -p 4204:80 asushares/stack:latest
+docker run -it --rm -p 4204:80 asushares/stack:latest --pull always
 ```
 Open http://localhost:4204 in your browser to use the controller.
 
