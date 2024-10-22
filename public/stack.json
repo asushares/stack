@@ -1,6 +1,6 @@
 {
     "$schema": "https://stack.skycapp.com/stack.schema.json",
-    "title": "SHARES Stack Controller",
+    "title": "ASU SHARES Seed Data & Stack Controller",
     "instructions": "Load all data files, below, to use SHARES' default deidentified patient records and references to Synthea-generated Organization and Practitioner records.",
     "fhir_base_url": "http://localhost:8080/fhir",
     "driver": "hapi",
