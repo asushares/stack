@@ -32,11 +32,12 @@ With data loaded, you may now run any of the other SHARES familar of services.
 
 | URL                   | Service           | Purpose       | Source Code   |
 |----                   |----               |----           |----           |
-| http://localhost:4200 | Patient Portal    | Patient-facing simple consent editor | https://github.com/asushares/patient
+| http://localhost:4204 | Stack Controller  | This application, for data (re)loading. Start here. | https://github.com/asushares/stack
+| http://localhost:4203 | Patient Portal    | Patient-facing simple consent editor | https://github.com/asushares/patient
+| http://localhost:4202 | Rules Editor      | CDS rule editor, if "basic" mode is used. | https://github.com/asushares/rules
 | http://localhost:4201 | Consent Manager   | Provider-facing complex consent editor  | https://github.com/asushares/consent-manager
-| http://localhost:4202 | Rules Editor      | Patient-facing consent editor | https://github.com/asushares/rules
-| http://localhost:3000 | CDS Engine        | SHARES CDS Hooks service | https://github.com/asushares/cds
 | http://localhost:8080 | FHIR Server       | Underlying FHIR data repository | https://github.com/hapifhir/hapi-fhir
+| http://localhost:3000 | CDS Engine        | SHARES CDS Hooks service | https://github.com/asushares/cds
 
 
 ## Building and Running Your Own Custom Stack Controller
