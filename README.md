@@ -1,7 +1,6 @@
 # ASU SHARES FHIR Sandbox Controller
 
-This project provides a turnkey FHIR controller for loading FHIR seed data into a locally running [ASU SHARES](https://www.asushares.com) software stack.
-
+This project provides a turnkey FHIR controller for loading FHIR seed data into a locally running [ASU SHARES](https://www.asushares.com) software stack, including the FHIR bundles used by SHARES publications, presentations, and demos. See [GitHub](https://github.com/asushares/stack) for source code.
 
 
 ## Running the Complete Stack with Pre-Built Images (HIGHLY RECOMMENDED)
@@ -48,10 +47,10 @@ docker buildx build -t asushares/stack:latest .
 ```
 
 ```sh
-# Run it on port 4201 (or other of your choice)
-docker run -it --rm -p 4201:80 asushares/stack:latest
+# Run it on port 4204 (or other of your choice)
+docker run -it --rm -p 4204:80 asushares/stack:latest
 ```
-Open http://localhost:4201 in your browser to use the controller.
+Open http://localhost:4204 in your browser to use the controller.
 
 ## License
 
