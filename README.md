@@ -55,7 +55,7 @@ Open http://localhost:4204 in your browser to use the controller.
 
 ## Notes for macOS and ARM Users
 
-TODO multi-architecture instructions
+TODO multi-architecture instructions.
 
 ## License
 
