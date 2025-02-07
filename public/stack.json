@@ -36,105 +36,120 @@
             "load": true,
             "name": "Organization Bundle 1",
             "description": "Synthea-generated Organization records",
-            "type": "Organization Bundle"
+            "type": "Organization Bundle",
+            "priority": 0
         },
         {
             "file": "data/hospitalInformation1671557444542.json",
             "load": true,
             "name": "Organization Bundle 2",
             "description": "Synthea-generated Organization records",
-            "type": "Organization Bundle"
+            "type": "Organization Bundle",
+            "priority": 1
         },
         {
             "file": "data/practitionerInformation1671557337568.json",
             "load": true,
             "name": "Practioner Bundle 1",
             "description": "Synthea-generated Practitioner records",
-            "type": "Practitioner Bundle"
+            "type": "Practitioner Bundle",
+            "priority": 2
         },
         {
             "file": "data/practitionerInformation1671557444542.json",
             "load": true,
             "name": "Practioner Bundle2 ",
             "description": "Synthea-generated Practitioner records",
-            "type": "Practitioner Bundle"
+            "type": "Practitioner Bundle",
+            "priority": 3
         },
         {
             "file": "data/Patient 1 - Adrian Allen1 - R5-Initial view.json",
             "load": true,
             "name": "Patient 1 - Adrian Allen1",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 4
         },
         {
             "file": "data/Patient 2 - Beth Brooks2 - R5-Initial view.json",
             "load": true,
             "name": "Patient 2 - Beth Brooks2",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 5
         },
         {
             "file": "data/Patient 3 - Carmen Chavez - R5-Initial view.json",
             "load": true,
             "name": "Patient 3 - Carmen Chavez",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 6
         },
         {
             "file": "data/Patient 4 - Diana Dixon4 - R5-Initial view.json",
             "load": true,
             "name": "Patient 4 - Diana Dixon4",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 7
         },
         {
             "file": "data/Patient 5 - Emma Edwards5 - R5-Initial view.json",
             "load": true,
             "name": "Patient 5 - Emma Edwards5",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 8
         },
         {
             "file": "data/Patient 8 - Hannah Hall8 - R5-Initial view.json",
             "load": true,
             "name": "Patient 8 - Hannah Hall8",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 9
         },
         {
             "file": "data/Patient 9 - Ian Ingram9 - R5-Initial view.json",
             "load": true,
             "name": "Patient 9 - Ian Ingram9",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 10
         },
         {
             "file": "data/Patient 10 - Justin Jordan10 - R5-Initial view.json",
             "load": true,
             "name": "Patient 10 - Justin Jordan10",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 11
         },
         {
             "file": "data/Patient 11 - Kobe King11 - R5-Initial view.json",
             "load": true,
             "name": "Patient 11 - Kobe King11",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 12
         },
         {
             "file": "data/Patient 12 - Lisa Little12 - R5-Initial view.json",
             "load": true,
             "name": "Patient 12 - Lisa Little12",
             "description": "Deidentified patient record from SHARES study.",
-            "type": "Patient Bundle"
+            "type": "Patient Bundle",
+            "priority": 13
         },
         {
             "file": "data/CDS Test Case Consents.json",
             "load": true,
             "name": "CDS Test Case Consents",
             "description": "Manually created Consent resources for CDS testing.",
-            "type": "Consent Directives"
+            "type": "Consent Directives",
+            "priority": 14
         }
     ]
 }
