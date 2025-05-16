@@ -44,7 +44,8 @@ With data loaded, you may now run any of the other SHARES familar of services.
 
 ```sh
 # Substitute with your own repository.
-docker buildx build -t asushares/stack:latest . 
+docker buildx build -t asushares/stack:latest . # Local CPU architecture only
+docker buildx build --platform linux/arm64/v8,linux/amd64 -t asushares/stack:latest . --push # Multi-architecture
 ```
 
 ```sh
