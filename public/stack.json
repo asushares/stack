@@ -150,6 +150,14 @@
             "description": "Manually created Consent resources for CDS testing.",
             "type": "Consent Directives",
             "priority": 14
+        },
+        {
+            "file": "data/Terry864_Shields502-R5.json",
+            "load": true,
+            "name": "Patient Synthea R5 - Terry864_Shields502",
+            "description": "Synthetic patient record from SHARES study.",
+            "type": "Patient Bundle",
+            "priority": 15
         }
     ]
 }
