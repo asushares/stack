@@ -80,14 +80,14 @@
             "fullUrl": "http://clinfhir.com/fhir/Encounter/Encounter-e734986c-515c-4007-5f01-a4e3b0f93242",
             "resource": {
                 "resourceType": "Encounter",
-                "id": "Encounter-e734986c-515c-4007-5f01-a4e3b0f93242",
+                "id": "e734986c-515c-4007-5f01-a4e3b0f93242",
                 "meta": {
                     "profile": [
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f",
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f",
                     "display": "Mr. Terry864 Luciano237 Shields502"
                 },
                 "identifier": [
@@ -166,7 +166,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f"
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -222,7 +222,7 @@
                 "resourceType": "Claim",
                 "id": "d7e397cc-df1f-0109-c197-c82c2dd97e7f",
                 "patient": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f",
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f",
                     "display": "Terry864 Shields502"
                 },
                 "status": "active",
@@ -347,7 +347,7 @@
                 "resourceType": "Claim",
                 "id": "cfsb1746660511736",
                 "patient": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f",
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f",
                     "display": "Terry864 Shields502"
                 },
                 "status": "active",
@@ -477,7 +477,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f"
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f"
                 },
                 "clinicalStatus": {
                     "coding": [
@@ -538,7 +538,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f"
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f"
                 },
                 "status": "completed",
                 "code": {
@@ -570,7 +570,7 @@
                 "resourceType": "Claim",
                 "id": "94d6c613-cfe6-9b8f-9407-a7b02fef39d0",
                 "patient": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f",
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f",
                     "display": "Terry864 Shields502"
                 },
                 "status": "active",
@@ -879,7 +879,7 @@
                 "resourceType": "ExplanationOfBenefit",
                 "id": "cfsb1746675459488",
                 "patient": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f"
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f"
                 },
                 "status": "active",
                 "type": {
@@ -1083,7 +1083,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:e7a0a8ab-cce2-7da6-d291-89649cadf90f"
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f"
                 },
                 "clinicalStatus": {
                     "coding": [
