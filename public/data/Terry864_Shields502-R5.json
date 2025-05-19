@@ -72,7 +72,8 @@
                 ]
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f"
             }
         },
         {
@@ -150,7 +151,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Encounter/e734986c-515c-4007-5f01-a4e3b0f93242"
             }
         },
         {
@@ -210,7 +212,8 @@
                 "recordedDate": "1949-03-18T09:58:22-07:00"
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Condition/f1bf6953-86b1-61d1-9acb-63cdcc163354"
             }
         },
         {
@@ -334,7 +337,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Claim/d7e397cc-df1f-0109-c197-c82c2dd97e7f"
             }
         },
         {
@@ -458,7 +462,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Claim/cfsb1746660511736"
             }
         },
         {
@@ -518,7 +523,8 @@
                 "recordedDate": "1949-03-18T09:58:22-07:00"
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Condition/39bcc0be-7951-715e-67ee-eb0174122a7d"
             }
         },
         {
@@ -554,7 +560,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Procedure/f375ab51-ac6e-e3fa-9afc-a45d88d0ac26"
             }
         },
         {
@@ -862,7 +869,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Claim/94d6c613-cfe6-9b8f-9407-a7b02fef39d0"
             }
         },
         {
@@ -985,7 +993,8 @@
                 ]
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "ExplanationOfBenefit/cfsb1746675459488"
             }
         },
         {
@@ -1005,7 +1014,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "CarePlan/Alcohol-Tobacco"
             }
         },
         {
@@ -1058,7 +1068,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Observation/cfsb1746680323384"
             }
         },
         {
@@ -1122,7 +1133,8 @@
                 }
             },
             "request": {
-                "method": "PUT"
+                "method": "PUT",
+                "url": "Condition/cfsb1746726846775"
             }
         }
     ]
