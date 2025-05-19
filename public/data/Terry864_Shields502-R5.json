@@ -1,6 +1,6 @@
 {
     "resourceType": "Bundle",
-    "type": "collection",
+    "type": "transaction",
     "entry": [
         {
             "fullUrl": "http://clinfhir.com/fhir/Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f",
