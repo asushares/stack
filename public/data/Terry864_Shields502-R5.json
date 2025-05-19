@@ -70,6 +70,9 @@
                         }
                     }
                 ]
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -145,6 +148,9 @@
                     "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|6fe7f7b0-9403-3af4-a820-be016e3cf082",
                     "display": "Thunderbird VA Health Care Clinic"
                 }
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -202,6 +208,9 @@
                 },
                 "onsetDateTime": "1949-03-18T09:58:22-07:00",
                 "recordedDate": "1949-03-18T09:58:22-07:00"
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -323,6 +332,9 @@
                     "value": 1001.68,
                     "currency": "USD"
                 }
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -444,6 +456,9 @@
                     "value": 1001.68,
                     "currency": "USD"
                 }
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -501,6 +516,9 @@
                 },
                 "onsetDateTime": "1949-03-18T09:58:22-07:00",
                 "recordedDate": "1949-03-18T09:58:22-07:00"
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -534,6 +552,9 @@
                     "reference": "Location?identifier=https://github.com/synthetichealth/synthea|9b7a195c-9edd-3654-8698-b24b0b9171f6",
                     "display": "BELL URGENT CARE LLC"
                 }
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -839,6 +860,9 @@
                     "value": 1120.04,
                     "currency": "USD"
                 }
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -959,6 +983,9 @@
                         }
                     }
                 ]
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -976,6 +1003,9 @@
                 "subject": {
                     "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f"
                 }
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
@@ -1026,6 +1056,9 @@
                     ],
                     "text": "Ex-smoker (finding)"
                 }
+            },
+            "request": {
+                "method": "PUT"
             }
         },
         {
