@@ -154,7 +154,7 @@
         {
             "file": "data/Terry864_Shields502-R5.json",
             "load": false,
-            "name": "Patient Synthea R5 - Terry864_Shields502",
+            "name": "(Do Not Use) Patient Synthea R5 - Terry864_Shields502",
             "description": "Synthetic patient record from SHARES study.",
             "type": "Patient Bundle",
             "priority": 15
