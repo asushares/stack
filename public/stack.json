@@ -167,22 +167,40 @@
             "priority": 14
         },
         {
-            "file": "data/Terry864_Shields502_e7a0a8ab-cce2-7da6-d291-89649cadf90f_R5.json",
+            "file": "data/synthea/hospitalInformation1739354283808.json",
+            "load": true,
+            "loader": "fhir-bundle",
+            "name": "Synthea Hospital Information",
+            "description": "Synthetic hospital information from SHARES study.",
+            "type": "Organization Resources",
+            "priority": 15
+        },
+        {
+            "file": "data/synthea/practitionerInformation1739354283808.json",
+            "load": true,
+            "loader": "fhir-bundle",
+            "name": "Synthea Practitioner Information",
+            "description": "Synthetic practitioner information from SHARES study.",
+            "type": "Practitioner Resources",
+            "priority": 16
+        },
+        {
+            "file": "data/synthea/Terry864_Shields502_e7a0a8ab-cce2-7da6-d291-89649cadf90f_R5.json",
             "load": true,
             "loader": "fhir-bundle",
             "name": "Patient Synthea R5 - Terry864_Shields502",
             "description": "Synthetic patient record from SHARES study.",
             "type": "Patient Bundle",
-            "priority": 15
+            "priority": 17
         },
         {
-            "file": "data/CDS Test Case Consents - Synthea.json",
+            "file": "data/synthea/CDS Test Case Consents - Synthea.json",
             "load": true,
             "loader": "fhir-bundle",
             "name": "CDS Test Case Consents for Synthea Patients",
             "description": "Manually created Consent resources for CDS testing.",
             "type": "Consent Directives",
-            "priority": 16
+            "priority": 18
         }
     ]
 }
