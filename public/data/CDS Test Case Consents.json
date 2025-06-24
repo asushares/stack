@@ -171,7 +171,7 @@
         {
             "resource": {
                 "resourceType": "Consent",
-                "id": "kobe-king-permit",
+                "id": "terry-shields-deny-sud",
                 "status": "active",
                 "category": [
                     {
@@ -198,10 +198,10 @@
                     }
                 ],
                 "subject": {
-                    "reference": "Patient/kobe-king",
+                    "reference": "Patient/e7a0a8ab-cce2-7da6-d291-89649cadf90f",
                     "type": "Patient"
                 },
-                "decision": "deny",
+                "decision": "permit",
                 "provision": [
                     {
                         "id": "5ff6fde4-682b-499f-9c72-b6c12f961db3",
@@ -262,7 +262,7 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Consent/kobe-king-permit"
+                "url": "Consent/terry-shields-deny-sud"
             }
         }
     ]
