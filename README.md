@@ -1,4 +1,4 @@
-# ASU SHARES FHIR Sandbox Controller
+# ASU SHARES FHIR Controller
 
 This project provides a turnkey FHIR controller for loading FHIR seed data into a locally running [ASU SHARES](https://www.asushares.com) software stack, including the FHIR bundles used by SHARES publications, presentations, and demos. See [GitHub](https://github.com/asushares/stack) for source code.
 
