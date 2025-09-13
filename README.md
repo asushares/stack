@@ -2,7 +2,6 @@
 
 This project provides a turnkey FHIR controller for loading FHIR seed data into a locally running [ASU SHARES](https://www.asushares.com) software stack, including the FHIR bundles used by SHARES publications, presentations, and demos. See [GitHub](https://github.com/asushares/stack) for source code.
 
-
 ## Running the Complete Stack with Pre-Built Images (HIGHLY RECOMMENDED)
 
 You may download and run compelete, pre-configured architectures of the SHARES stack from [HL7 FHIR Foundry](https://foundry.hl7.org), which includes a copy of this controller and FHIR data bundles. Follow the instructions in the SHARES product listing for instructions. You will need Docker Desktop, podman, or other compatible container runtime. (If you don't know, start with Docker Desktop.) Foundry will generate a working docker-compose.yml file for you to run without modification.
@@ -54,9 +53,6 @@ docker run -it --rm -p 4204:80 asushares/stack:latest --pull always
 ```
 Open http://localhost:4204 in your browser to use the controller.
 
-## Notes for macOS and ARM Users
-
-TODO multi-architecture instructions..
 
 ## License
 
